@@ -123,11 +123,16 @@ header nav ul li a{
     margin-right: 24px;
 }
 
-.container .text-container {
+.master{
+    padding: 120px 40px;
+    display: inline-block;
+}
+
+.text-container {
     width: 25%;
 }
 
-#first-text {
+.right {
     float: right;
     margin-right: 240px;
 }
@@ -143,17 +148,7 @@ header nav ul li a{
     margin-right: 175px;
 }
 
-#third-text {
-    float: right;
-    margin-right: 240px;
-}
-
-.master{
-    padding: 120px 40px;
-    display: inline-block;
-}
-
-main::after{
+.master::after{
     content: "";
     display: table;
     clear: both;
