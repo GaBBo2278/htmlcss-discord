@@ -10,7 +10,6 @@
     width: 80%;
     margin: 0 auto;
     height: 100%;
-    /* padding: 120px 40px; */
 }
 
 .row::after {
@@ -88,8 +87,8 @@ header nav ul li a{
     background-color: black;
 }
 
-#arrow {
-    padding-right: 10px;
+.fas.fa-long-arrow-alt-down{
+    margin-right: 10px;
 }
 
 #jumbotron {
@@ -140,12 +139,22 @@ header nav ul li a{
 #second-text {
     width: 40%;
     float: left;
-    padding-right: 100px;
+    padding: 80px 100px;
 }
 
 #second-img {
     float: right;
     margin-right: 175px;
+}
+
+#fourth-img {
+    width: 100%;
+}
+
+#fourth-text {
+    width: 70%;
+    text-align: center;
+    margin: auto;
 }
 
 .master::after{
