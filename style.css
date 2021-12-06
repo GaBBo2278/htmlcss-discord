@@ -173,3 +173,36 @@ header nav ul li a{
     margin-top: 24px;
     line-height: 30px;
 }
+
+.adventure-row {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.adventure-row img {
+    margin-bottom: 0;
+    position: absolute;
+    height: 45%;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    margin-left: -50%;
+    margin-top: -7%;
+}
+.adventure-row h2 {
+    font-weight: 600;
+    font-size: 32px;
+    margin-top: 0px;
+}
+
+.adventure-row a {
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.adventure-row #purple {
+    color: white;
+    text-decoration: none;
+    background-color: #8ea1e1;
+}
