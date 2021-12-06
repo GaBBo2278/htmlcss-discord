@@ -10,6 +10,7 @@
     width: 80%;
     margin: 0 auto;
     height: 100%;
+    /* padding: 120px 40px; */
 }
 
 .row::after {
@@ -75,8 +76,6 @@ header nav ul li a{
     font-size: 20px;
 }
 
-
-
 #white {
     color: black;
     text-decoration: none;
@@ -124,11 +123,44 @@ header nav ul li a{
     margin-right: 24px;
 }
 
-
-main {
-    background-color: yellow;
+.master{
+    padding: 120px 40px;
+    display: inline-block;
 }
 
-footer {
-    background-color: grey;
+.text-container {
+    width: 25%;
+}
+
+.right {
+    float: right;
+    margin-right: 240px;
+}
+
+#second-text {
+    width: 40%;
+    float: left;
+    padding-right: 100px;
+}
+
+#second-img {
+    float: right;
+    margin-right: 175px;
+}
+
+.master::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.text-container h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.text-container p {
+    font-size: 20px;
+    margin-top: 24px;
+    line-height: 30px;
 }
