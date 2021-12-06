@@ -178,6 +178,7 @@ header nav ul li a{
     width: 100%;
     text-align: center;
     position: relative;
+    margin-bottom: 120px;
 }
 
 .adventure-row img {
@@ -201,8 +202,94 @@ header nav ul li a{
     display: inline-block;
 }
 
-.adventure-row #purple {
+#purple {
     color: white;
     text-decoration: none;
     background-color: #8ea1e1;
+}
+
+footer{
+    background-color: #23272a;
+    color: #fff;
+}
+.resume {
+    padding: 80px 0px;
+}
+
+.resume .title{
+    color: #7089d5;
+}
+ 
+.resume:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.social i{
+    color: #fff;
+    margin: 15px 10px;
+}
+
+.contacts{
+    width: 20%;
+    float: left;
+}
+
+.contacts h2 {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.contacts .lang{
+    margin-top: 20px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.contacts .lang img {
+    width: 24px;
+    height: 16px;
+}
+
+.product{
+    width: 18%;
+    float: left;
+}
+
+.company{
+    width: 18%;
+    float: left;
+}
+
+.resources{
+    width: 18%;
+    float: left;
+}
+
+.standards{
+    width: 18%;
+    float: left;
+}
+
+footer .container ul{
+    list-style: none;
+}
+
+footer .container ul a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    margin-top: 10px;
+}
+
+.down_footer {
+    position: relative;
+    border-top: 1px solid #414c68;
+    padding: 40px 0px;
+}
+
+#sign-up {
+    float: right;
 }
